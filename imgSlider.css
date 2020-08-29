@@ -7,8 +7,8 @@ html {
   width: 100%;
 }
 .dasher {
-background-image: url(https://i.imgur.com/EWxJZy0.jpg); 
-background-size: cover;
+background-image: url(/*insert hosted image here */); 
+background-size: cover; /*resizes width to match up with size of the frame. */
 width: 1085px;
 height: 1085px;
 border: 0px solid #F0E5AB;
@@ -21,8 +21,8 @@ overflow: hidden;
 }
 
 .dancer {
-background-image: url(https://i.imgur.com/IWqPLwW.jpg);
-background-size: cover;
+background-image: url(/*insert hosted image here */);
+background-size: cover; /*resizes width to match up with size of the frame */
 height:1085px;
 resize: none; 
 position: absolute; 
@@ -35,7 +35,7 @@ box-sizing: border-box;
 .dancer:before {  /* Big green knob  */
     position: absolute;
   	top: 0;
- 	right: -16px;
+ 	  right: -16px;
     top: 50%;
     width: 32px;
     height: 64px;
